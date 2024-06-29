@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Streams in Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
+            grid-gap: 0;  /* Remove spacing between streams */
+            height: 100vh; /* Set container height to 100 viewport height */
+        }
+        .grid-container iframe {
+            border: none; /* Optional to remove borders for a cleaner look */
+            width: 100%; /* Force iframe width to 100% of its container */
+            height: 100%; /* Force iframe height to 100% of its container */
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bNyUyrR0PHo?si=i4PDUA-ZfFxyMz9Q&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when_cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/me1fBxx9wJY?si=hAlpx4afNogf8jaF&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when_cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/f6VpkfV7m4Y?si=HWPTcKwf4t0gCIkk&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when_cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VuYzy8IuT0Y?si=L4zHKSX5DD124OJV&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in- つ折り web-share" referrerpolicy="strict-origin-when_cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
